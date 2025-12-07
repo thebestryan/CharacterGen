@@ -58,10 +58,11 @@ CharacterGen is a Python-based application for creating and editing v2 character
    API_KEY: "YOUR_API_KEY"
    ```
 3. Run the application:
-   ```yaml
+   ```bash
    chmod +x start.sh
    ./start.sh
-   -- the script will take care of everyting including venv. 
+   ```
+   The script will take care of everyting including venv. 
 
 ## Usage
 
