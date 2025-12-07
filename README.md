@@ -49,17 +49,19 @@ CharacterGen is a Python-based application for creating and editing v2 character
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/CharacterGen.git
+   git clone https://github.com/thebestryan/CharacterGen.git
    cd CharacterGen
    ```
-2. Configure the API settings in `config.yaml`. For atleast Ooba and KoboldCCP don't forget the /v1/chat/completions, the default should work for most people:
+2. Configure the API settings in `data/config/config.yaml`. For atleast Ooba and KoboldCCP don't forget the /v1/chat/completions, the default should work for most people:
    ```yaml
    API_URL: "http://127.0.0.1:5000/v1/chat/completions"
    API_KEY: "YOUR_API_KEY"
    ```
 3. Run the application:
-   - Use start.bat
-     - This creats a virtual env, and gets prerequisites 
+   ```yaml
+   chmod +x start.sh
+   ./start.sh
+   -- the script will take care of everyting including venv. 
 
 ## Usage
 
